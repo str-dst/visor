@@ -27,7 +27,7 @@ Every face is mapped to one of the remotes keycodes.
 
 ## Currently implemented codes
 
- |Keycode|Face|Color|
+ |Keycode|Display content|Color|
  |-|-|-|
  |0x01|Default, happy eyes|default|
  |0x02|Wide round eyes|default|
@@ -37,9 +37,9 @@ Every face is mapped to one of the remotes keycodes.
  |0x06|Small eyes, focused|default|
  |0x07|Cheeky, pointy upwards|default|
  |0x08|BOOPED!, eyes inward|default|
- |0x09|Dead, X|red|
- |0x0A|Angry|red|
- |0x0B|Targetmode|red|
+ |0x09|Dead, X eyes|red|
+ |0x0A|Angry, frowning|red|
+ |0x0B|Targetmode, evil|red|
  |0x0D|Text: BEEP|green|
  |0x0E|Text: awoo|orange|
  |0x0F|Text: NO|red|
