@@ -20,31 +20,30 @@ The list of pixel values is then simply displayed on the LED matrix.
 The remote controller is based on an Elite-C controller and hardwired to the Pi.  
 For each keypress or keypress-combination a distinctive keycode is sent over a serial connection.  
 Keycode 0x0C is an exception and cycles through different colors for the face.
+Some faces have a preset color that changes automatically for an added effect.
 
 The faces are stored as simple 16x32 1-bit black/white bitmap files.  
 Every face is mapped to one of the remotes keycodes.  
 
 ## Currently implemented codes
 
- - 0x01: Default, happy eyes
- - 0x02: Wide round eyes
- - 0x03: Sleepy drowsy looking
- - 0x04: Wink, left eye closed
-   
- - 0x05: Flat eyed, annoyed
- - 0x06: Small eyes, focused
- - 0x07: Cheeky, pointy upwards
- - 0x08: BOOPED!, eyes inward
-
- - 0x09: Dead, X, always red
- - 0x0A: Angry, always red
- - 0x0B: Targetmode, always red
- - 0x0C: Color mode change
-
- - 0x0D: Text: BEEP, always green
- - 0x0E: Text: awoo, always orange
- - 0x0F: Text: NO, always red
- - 0x10: Text: FACE, always blue
+ |Keycode|Face|Color|
+ |-|-|-|
+ |0x01|Default, happy eyes|default|
+ |0x02|Wide round eyes|default|
+ |0x03|Sleepy drowsy looking|default|
+ |0x04|Wink, left eye closed|default|
+ |0x05|Flat eyed, annoyed|default|
+ |0x06|Small eyes, focused|default|
+ |0x07|Cheeky, pointy upwards|default|
+ |0x08|BOOPED!, eyes inward|default|
+ |0x09|Dead, X|red|
+ |0x0A|Angry|red|
+ |0x0B|Targetmode|red|
+ |0x0D|Text: BEEP|green|
+ |0x0E|Text: awoo|orange|
+ |0x0F|Text: NO|red|
+ |0x10|Text: FACE|blue|
 
 
 ## Possible additions / changes for the future
