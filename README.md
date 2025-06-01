@@ -19,6 +19,7 @@ The list of pixel values is then simply displayed on the LED matrix.
 
 The remote controller is based on an Elite-C controller and hardwired to the Pi.  
 For each keypress or keypress-combination a distinctive keycode is sent over a serial connection.  
+Keycode 0x0C is an exception and cycles through different colors for the face.
 
 The faces are stored as simple 16x32 1-bit black/white bitmap files.  
 Every face is mapped to one of the remotes keycodes.  
