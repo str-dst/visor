@@ -24,7 +24,7 @@ Keycode 0x0C is an exception and cycles through different colors for the face.
 The faces are stored as simple 16x32 1-bit black/white bitmap files.  
 Every face is mapped to one of the remotes keycodes.  
 
-## Currently implemented faces
+## Currently implemented codes
 
  - 0x01: Default, happy eyes
  - 0x02: Wide round eyes
