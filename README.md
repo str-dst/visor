@@ -2,7 +2,7 @@
 
 Visor based on a cheap 3M 6800 compatible gas mask
 
-### What?
+## What?
 
 Two "see-through" 16x16 ws2812b LED panels mounted inside a full face gas mask.
 The mask was tinted using Rit-Dyemore Graphite-Black plastic dye to hide the electronics inside.
@@ -11,7 +11,7 @@ The panels are controlled by a relatively simple Python script running on a RPi 
 A wired six-button remote strapped to my left hand is used change the displayed faces.
 Two of the buttons on the remote act as "modifiers", making a total of 16 combinations possible.
 
-### How?
+## How?
 
 The image files are first loaded with PIL and the pixel values are stored in a list.
 A preselect color is then added to the "active" white pixels of the loaded image.
@@ -23,13 +23,13 @@ For each keypress or keypress-combination a distinctive keycode is sent over a s
 The faces are stored as simple 16x32 1-bit black/white bitmap files.
 Every face is mapped to one of the remotes keycodes.
 
-### Currently implemented faces
+## Currently implemented faces
 
  - 0x01: Default, happy eyes
  - 0x02: Wide round eyes
  - 0x03: Sleepy drowsy looking
  - 0x04: Wink, left eye closed
-
+   
  - 0x05: Flat eyed, annoyed
  - 0x06: Small eyes, focused
  - 0x07: Cheeky, pointy upwards
@@ -46,7 +46,7 @@ Every face is mapped to one of the remotes keycodes.
  - 0x10: Text: FACE, always blue
 
 
-### Possible additions / changes for the future
+## Possible additions / changes for the future
 
  - Add more key combos to the remote to be able to add more faces
  - Make it possible to create "compound faces" individually controlling the left or right eye
