@@ -17,9 +17,9 @@ The image files are first loaded with PIL and the pixel values are stored in a l
 A preselect color is then added to the "active" white pixels of the loaded image.  
 The list of pixel values is then simply displayed on the LED matrix.  
 
-The remote controller is based on an Elite-C controller and hardwired to the Pi.  
+The remote controller is based on an Elite-C controller and hardwired to the Pi via USB.  
 For each keypress or keypress-combination a distinctive keycode is sent over a serial connection.  
-On key release the code '0x00' is sent, though this has currently no real use.
+On key release the code '0x00' is sent, though this has currently no real use.  
 
 The faces are stored as simple 16x32 1-bit black/white bitmap files.  
 Every face is mapped to one of the remotes keycodes.  
@@ -35,11 +35,11 @@ Some faces have a preset color that changes automatically for an added effect.
  |0x02|Wide round eyes|default|
  |0x03|Sleepy drowsy looking|default|
  |0x04|Wink, left eye closed|default|
- |0x05|Flat eyed, annoyed|default|
- |0x06|Small eyes, focused|default|
+ |0x05|Annoyed, Flat eyes|default|
+ |0x06|Focused, Small eyes|default|
  |0x07|Cheeky, pointy upwards|default|
- |0x08|BOOPED!, eyes inward|default|
- |0x09|Hearts, Love|pink|
+ |0x08|BOOPED, pointy inward|default|
+ |0x09|Love, Heart eyes|pink|
  |0x0A|Dead, X eyes|red|
  |0x0B|Angry, frowning|red|
  |0x0D|Text: BEEP|green|
