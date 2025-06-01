@@ -39,9 +39,9 @@ Some faces have a preset color that changes automatically for an added effect.
  |0x06|Small eyes, focused|default|
  |0x07|Cheeky, pointy upwards|default|
  |0x08|BOOPED!, eyes inward|default|
- |0x09|Dead, X eyes|red|
- |0x0A|Angry, frowning|red|
- |0x0B|Targetmode, evil|red|
+ |0x09|Hearts, Love|pink|
+ |0x0A|Dead, X eyes|red|
+ |0x0B|Angry, frowning|red|
  |0x0D|Text: BEEP|green|
  |0x0E|Text: awoo|orange|
  |0x0F|Text: NO|red|
