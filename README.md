@@ -4,24 +4,24 @@ Visor based on a cheap 3M 6800 compatible gas mask
 
 ## What?
 
-Two "see-through" 16x16 ws2812b LED panels mounted inside a full face gas mask.
-The mask was tinted using Rit-Dyemore Graphite-Black plastic dye to hide the electronics inside.
+Two "see-through" 16x16 ws2812b LED panels mounted inside a full face gas mask.  
+The mask was tinted using Rit-Dyemore Graphite-Black plastic dye to hide the electronics inside.  
 
-The panels are controlled by a relatively simple Python script running on a RPi Zero 2W.
-A wired six-button remote strapped to my left hand is used change the displayed faces.
-Two of the buttons on the remote act as "modifiers", making a total of 16 combinations possible.
+The panels are controlled by a relatively simple Python script running on a RPi Zero 2W.  
+A wired six-button remote strapped to my left hand is used change the displayed faces.  
+Two of the buttons on the remote act as "modifiers", making a total of 16 combinations possible.  
 
 ## How?
 
-The image files are first loaded with PIL and the pixel values are stored in a list.
-A preselect color is then added to the "active" white pixels of the loaded image.
-The list of pixel values is then simply displayed on the LED matrix.
+The image files are first loaded with PIL and the pixel values are stored in a list.  
+A preselect color is then added to the "active" white pixels of the loaded image.  
+The list of pixel values is then simply displayed on the LED matrix.  
 
-The remote controller is based on an Elite-C controller and hardwired to the Pi.
-For each keypress or keypress-combination a distinctive keycode is sent over a serial connection.
+The remote controller is based on an Elite-C controller and hardwired to the Pi.  
+For each keypress or keypress-combination a distinctive keycode is sent over a serial connection.  
 
-The faces are stored as simple 16x32 1-bit black/white bitmap files.
-Every face is mapped to one of the remotes keycodes.
+The faces are stored as simple 16x32 1-bit black/white bitmap files.  
+Every face is mapped to one of the remotes keycodes.  
 
 ## Currently implemented faces
 
