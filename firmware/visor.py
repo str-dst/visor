@@ -149,6 +149,7 @@ def main():
                         current_color_index = 0
                     else:
                         current_color_index += 1
+                    previous_color_index = current_color_index
 
                 # All other keycodes check against image and color mapping
                 else:
