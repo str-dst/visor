@@ -35,10 +35,10 @@ Some faces have a preset color that changes automatically for an added effect.
  |0x02|Wide round eyes|default|
  |0x03|Sleepy drowsy looking|default|
  |0x04|Wink, left eye closed|default|
- |0x05|Annoyed, Flat eyes|default|
- |0x06|Focused, Small eyes|default|
- |0x07|BOOPED, pointy inward|default|
- |0x08|Dizzy, twirly eyes|default|
+ |0x05|BOOPED, pointy inward|default|
+ |0x06|Dizzy, twirly eyes|default|
+ |0x07|Annoyed, Flat eyes|default|
+ |0x08|Focused, Small eyes|default|
  |0x09|Love, Heart eyes|pink|
  |0x0A|Dead, X eyes|red|
  |0x0B|Angry, frowning|red|
