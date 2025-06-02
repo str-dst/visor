@@ -107,14 +107,14 @@ def main():
     color_values = [
         (0, 255, 0),    # Green
         (0, 255, 128),  # Turquoise
-        (0, 128, 255),  # Light blue
+        (0, 64, 255),   # Light blue
         (0, 0, 255),    # Blue
-        (128, 0, 255),  # Purple
-        (255, 0, 192),  # Pink
+        (48, 0, 255),   # Purple
+        (192, 0, 255),  # Pink
         (255, 0, 0),    # Red
-        (255, 128, 0),  # Orange
-        (255, 255, 0),  # Yellow
-        (128, 255, 0),  # Lime
+        (255, 48, 0),   # Orange
+        (255, 192, 0),  # Yellow
+        (64, 255, 0),   # Lime
         (255, 255, 255) # White
     ]
 
