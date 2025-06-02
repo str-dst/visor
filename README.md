@@ -1,11 +1,11 @@
-# The digital face of 0x4C6F75
+# The digital face of unit 0x4C6F75
 
-Visor based on a cheap 3M 6800 compatible gas mask
+Visor based on a cheap modified 3M 6800 clone full face gas mask
 
 ## What?
 
-Two "see-through" 16x16 ws2812b LED panels mounted inside a full face gas mask.  
-The mask was tinted using Rit-Dyemore Graphite-Black plastic dye to hide the electronics inside.  
+Two "see-through" 16x16 ws2812b LED panels mounted behind the glass of a full face gas mask.
+The glass was tinted using Rit-Dyemore Graphite-Black plastic dye to hide the electronics inside.  
 
 The panels are controlled by a relatively simple Python script running on a RPi Zero 2W.  
 A wired six-button remote strapped to my left hand is used change the displayed faces.  
