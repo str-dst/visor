@@ -86,21 +86,22 @@ def main():
         b'\x09': 'faces/09_hearts.bmp',
         b'\x0A': 'faces/10_dead.bmp',
         b'\x0B': 'faces/11_angry.bmp',
-        b'\x0D': 'faces/12_beep.bmp',
-        b'\x0E': 'faces/13_awoo.bmp',
-        b'\x0F': 'faces/14_no.bmp',
-        b'\x10': 'faces/15_face.bmp',
+        b'\x0C': 'faces/12_sad.bmp',
+        b'\x0D': 'faces/13_beep.bmp',
+        b'\x0E': 'faces/14_awoo.bmp',
+        b'\x0F': 'faces/15_no.bmp',
     }
 
     # Preset color indexes for some of the faces
     color_mapping = {
+        b'\x06': 4,
         b'\x09': 5,
         b'\x0A': 6,
         b'\x0B': 6,
+        b'\x0C': 2,
         b'\x0D': 0,
         b'\x0E': 7,
         b'\x0F': 6,
-        b'\x10': 2,
     }
 
     # Color set that we can loop through
@@ -143,8 +144,8 @@ def main():
                 if data == b'\x00':
                     continue
 
-                # Cycle through the preset colors on 0x0C
-                if data == b'\x0C':
+                # Cycle through the preset colors on 0x10
+                if data == b'\x10':
                     if current_color_index == 10:
                         current_color_index = 0
                     else:
